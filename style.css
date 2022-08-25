@@ -1,0 +1,108 @@
+body {
+font-family: 'Caladea', serif;
+line-height: 1.5;
+background-color:#CAB7A2;
+}
+
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+font-family: 'Caladea',serif;}
+
+.hero{
+height :100 vh;
+width : 100%;
+background-color:#858786;
+}
+navbar{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding-top:40px;
+padding-left:10%;
+padding-right:10%;
+}
+
+.logo{
+color:#CAB7A2;
+font-family: 'Zen Antique', serif;
+font-size:32px;
+font-weight:bold;
+}
+
+navbar ul li{
+list-style:none;
+display:inline-block;
+padding:10px 50px;
+}
+
+navbar ul li a{
+color:#CAB7A2;
+text-decoration:none;
+font-weight:normal;
+}
+
+navbar ul li a:hover{
+color:#B4ADA3
+
+
+}
+
+.column{
+height:500px;
+width:30%;
+background-color:#C4B1AE;
+}
+
+.ürünler{
+text-align:center;
+font-family: 'Caladea', serif;
+line-height: 1.5;
+}
+
+.container{
+width : 100%;
+display: flex;
+justify-content:center;
+align-items:center;}
+
+.Info{
+color:#986D8E;
+
+line-height: 65px;
+padding-left:50px;
+font-size=18px;
+}
+
+.contact form{
+
+margin-right:50px;}
+
+.Info,contact form{
+flex:1;
+}
+
+.text-box{
+background:#8A9A5B;
+color:white;
+border:none;
+width:calc(50% -10px);
+height:50px;
+padding:12px;
+font-size:15px;
+border-radius:5px;
+margin-bottom:20px;
+opacity:0.9px;
+}
+
+.text-box:first-child{
+margin-right:20px;
+}
+
+.contact form .textarea{
+background:#8A9A5B;
+color:white;
+border:none;
+width:100%;
+}
